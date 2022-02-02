@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:10px;
+}
+body{
+    background-image:url(./background.jpg) ;
+    background-position: center;
+    color: #fff;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{
+    width: 10rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid #000;
+    background-color: #0000007e;
+}
+kbd{
+    font-size: 4rem;
+}
+.one span{
+    color: #ffc600;
+    font-size:1.2rem;
+
+}
